@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="description" content="Clube de cachorros fofinhos.">
+
     <title>Clube Patinhas</title>
+
 </head>
+
 <body>
+
     <h1>Clube Patinhas</h1> <!-- h1 é uma tag de titulo -->
     <!-- Um unico h1 por pagina: o assunto principal -->
      <!-- Existe seis niveis de titulos (h1 a h6) Segue a sequencia (h1 > h2 > h3 > h4 > h5 > h6) -->
-      <h2>Como cuidar</h2>
+      <main>
+     <h2>Como cuidar</h2>
+      <p>Um cachorro precisa de cuidados especiais, principalmente quando é filhote.</p>
+
       <h3>Alimentação</h3>
+        <p>Filhotes precisam de ração especial para filhotes.</p>
       <p>Escove os desntes<em>so com pastas para cães</em>.</p>
       <h4>Passeios</h4>
       <p>Filhotes só passeiam <strong>com as vacinas em dias </strong>.</p>
       <!-- a tag p é usada para criar parágrafos de texto -->
        <!-- a tag strong é usada para negrito e a tag em é usada para itálico -->
+        <p>Passeios são importantes para o bem-estar do cachorro.</p>
+        <ol>
+            <li>Pegar a guia</li>
+            <li>Passear com o cachorro</li>
+            <li>Leve o cachorro para passear todos os dias.</li>
+            <li>Não deixe o cachorro solto na rua.</li>
+            <li>Leve o cachorro para passear em locais seguros.</li>
+
+        </ol>
+
+        <ul>
+            <li>filhotes comem varias vezes por day. </li>
+            <li>alguns adultos comem mais de uma vez por day.</li>
+            <li>alguns alimentos humanos podem ser prejudiciais para os cães.</li>
+            <ul>
+                <li>Chocolate;</li>
+                <li>uva e uva-passa;</li>
+                <li>cebola;</li>
+                <li>alho;</li>
+            </ul>
+        </ul>>
 
        <h2>Raças</h2>
        <ul> <!-- ul é uma lista não ordenada -->
@@ -24,7 +56,13 @@
             <li>Poodle</li>
             <li>Golden Retriever</li>
             <li>Shih Tzu</li>
+
          </ul>
+
+         <figure>
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKG_G8fHy7t8jr3g61ud_HMUpOZ6gau4p1UHws9W_fMXWbgu6TxW-9nYY&s=10" height="200" width="200" alt="Um cachorro que representa o Brasil. ">
+             <figcaption>Um cachorro que representa o Brasil.</figcaption>
+         </figure>
 
          <dl>
 
@@ -44,5 +82,50 @@
           <!-- No atributo rel, especificamos a relação entre a página atual e o destino do link -->
 
          <img src="cachorro-fofo.jpg" alt="Um cachorro muito fofo.">
+         <h2>Passeios da semana</h2>
+
+         <table border="1">
+
+            <tr>
+                <th>Cachorro</th>
+                <th>Raça</th>
+                <th>Passeios</th>
+            </tr>
+            <tr>
+                <td>Rex</td>
+                <td>labraEstranho</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Resendog</td>
+                <td>Resendog</td>
+                <td>10</td>
+            </tr>
+        
+         </table>
+
+         <h2>Entre em contato: </h2>
+
+         <forma>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email">
+
+            <label for="mensagem">Mensagem: </label>
+            <textarea id="mensagem" name="mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+
+
+         </forma>
+   </main>
+
+   <footer>
+    <p>Clube Patinhas - Site criado para fins educativos</p>
+    <p>&copy; 2026 - Clube Patinhas. Todos os direitos reservados.</p>
+   </footer>
+   
 </body>
 </html>
